@@ -9,13 +9,8 @@
 body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
-  margin: 0 auto;
-  /* dafault font */
-  font-family: "IBM Plex Mono";
-  font-weight: normal;
-  line-height: 130%;
-  /* default font-size */
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 h1,

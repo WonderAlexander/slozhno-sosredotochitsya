@@ -1,7 +1,8 @@
 .footer {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
+    padding: 10px;
 }
 
 .footer__text {
@@ -15,8 +16,13 @@
 
 @media (768px <= width ) {
     .footer {
+        padding: 45px 20px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .footer__text {
+        font-size: 157px;
     }
 
     .footer.decorated-zone::after {

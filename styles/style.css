@@ -8,11 +8,10 @@
   background: var(--background-img);
   background-size: cover;
   background-attachment: fixed;
-  padding: 10px;
-}
-
-@media( 375px < width <= 1024px ) {
-  .page {
-    padding: 20px;
-  }
+  /* dafault font */
+  font-family: "IBM Plex Mono";
+  font-weight: normal;
+  line-height: 130%;
+  /* default font-size */
+  font-size: 18px;
 }
