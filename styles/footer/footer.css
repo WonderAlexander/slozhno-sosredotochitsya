@@ -13,7 +13,6 @@
     text-align: center;
 }
 
-
 @media (768px <= width ) {
     .footer {
         grid-template-columns: 1fr;
