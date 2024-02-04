@@ -1,5 +1,18 @@
+@import './header/header.css';
+@import './main/main.css';
+@import './footer/footer.css';
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background: var(--background-img);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+@media( 375px < width <= 1024px ) {
+  .page {
+    padding: 20px;
+  }
 }

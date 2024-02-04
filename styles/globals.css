@@ -10,6 +10,12 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  /* dafault font */
+  font-family: "IBM Plex Mono";
+  font-weight: normal;
+  line-height: 130%;
+  /* default font-size */
+  font-size: 18px;
 }
 
 h1,
@@ -33,10 +39,23 @@ picture {
   padding: 0;
 }
 
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
 }

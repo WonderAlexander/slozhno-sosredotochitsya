@@ -1,0 +1,8 @@
+@import './/variables.css';
+
+.title-decor {
+    color: var(--title-decor);
+    font-weight: 700;
+    line-height: 130%;
+    background-color: var(--accent-color);
+}
