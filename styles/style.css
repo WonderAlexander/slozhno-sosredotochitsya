@@ -8,6 +8,7 @@
   background: var(--background-img);
   background-size: cover;
   background-attachment: fixed;
+  background-color: var(--primary-color);
   /* dafault font */
   font-family: "IBM Plex Mono";
   font-weight: normal;
