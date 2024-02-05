@@ -1,5 +1,4 @@
 @import '../variables.css';
-@import '../helpers.css';
 
 .main {
     padding: 40px 10px 0 10px;
@@ -57,6 +56,13 @@
     margin-top: 30px;
 }
 
+.gallery__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    margin-bottom: 10px;
+}
+
 .gallery__wrapper {
     display: grid;
     row-gap: 10px;
@@ -68,8 +74,8 @@
 
 @media ( 768px <= width ) {
     .gallery {
-        grid-column-start: 1 !important;
-        grid-column-end: 4 !important;
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 
     .gallery__wrapper {
@@ -179,7 +185,7 @@
 
     .three-col {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 60px 1fr;
+        grid-template-rows: 1fr;
         column-gap: 20px;
     }
     .three-col .section__title {

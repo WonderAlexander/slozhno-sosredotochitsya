@@ -1,5 +1,4 @@
 @import '../variables.css';
-@import '../helpers.css';
 @import '../dark.css';
 @import '../light.css';
 
@@ -118,6 +117,13 @@
     justify-self: end;
 }
 
+.title-decor {
+    color: var(--title-decor);
+    font-weight: 700;
+    line-height: 130%;
+    background-color: var(--accent-color);
+}
+
 @media ( 375px <= width < 768px ) {
     .header {
         grid-template-columns: 1fr;
@@ -131,7 +137,6 @@
     }
 
     .header__decorated {
-        position: absolute;
         top: 20px;
         right: 28px;
     }
@@ -161,7 +166,6 @@
     }
 
     .header__decorated {
-        position: absolute;
         top: 20px;
         right: 27px;
     }
@@ -193,7 +197,7 @@
     }
 
     .header__title {
-        font-size: 157px;
+        font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
         grid-column-start: 1;
         grid-row-start: 4;
         grid-column-end: 5;
