@@ -12,6 +12,7 @@
     color: var(--title-color);
     align-self: center;
     text-align: center;
+    text-shadow: 2px 2px 0px var(--accent-color);
 }
 
 @media (768px <= width ) {

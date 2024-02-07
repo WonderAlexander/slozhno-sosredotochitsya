@@ -12,6 +12,8 @@
   --menu-text-color: #FF0070;
   --primary-text-color: #F1B2CE;
   --title-color: #DB00FF;
+  --section-title-color: #FF0070;
+  --menu-hover: rgba(255, 0, 112, 0.4);
 
   /* helpers */
   --title-decor: #000028;

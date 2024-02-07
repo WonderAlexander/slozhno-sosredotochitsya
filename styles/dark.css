@@ -1,10 +1,5 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
-:root.theme-dark {
+.page.theme_dark {
   --primary-color: #000028;
   --accent-color: #FF0070;
 
@@ -12,10 +7,33 @@
   --menu-text-color: #FF0070;
   --primary-text-color: #F1B2CE;
   --title-color: #DB00FF;
+  --section-title-color: #FF0070;
+  --menu-hover: rgba(255, 0, 112, 0.4);
 
   /* helpers */
   --title-decor: #000028;
 
   /* background-image */
   --background-img: url('../../images/cover-image-dark.png') center no-repeat;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #000028;
+    --accent-color: #FF0070;
+
+    /* text-color */
+    --menu-text-color: #FF0070;
+    --primary-text-color: #F1B2CE;
+    --title-color: #DB00FF;
+    --section-title-color: #FF0070;
+    --menu-hover: rgba(255, 0, 112, 0.4);
+
+    /* helpers */
+    --title-decor: #000028;
+
+    /* background-image */
+    --background-img: url('../../images/cover-image-dark.png') center no-repeat;
+  }
 }
