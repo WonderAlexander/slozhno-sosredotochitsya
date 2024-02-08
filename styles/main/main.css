@@ -67,7 +67,7 @@
     transition: all ease-in-out .1s;
 }
 
-.section__article-link:hover.section__article-link::after{
+.section__article-link:hover.section__article-link::after {
     opacity: 1;
 }
 
