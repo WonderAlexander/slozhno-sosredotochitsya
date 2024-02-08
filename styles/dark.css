@@ -14,9 +14,12 @@
   --title-decor: #000028;
 
   /* background-image */
-  --background-img: url('../../images/cover-image-dark.png') center no-repeat;
+  --background-img: url('../images/cover-image-dark.png') center no-repeat;
 }
 
+.page.theme_dark  .header__decorated {
+  display: block;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -34,6 +37,6 @@
     --title-decor: #000028;
 
     /* background-image */
-    --background-img: url('../../images/cover-image-dark.png') center no-repeat;
+    --background-img: url('../images/cover-image-dark.png') center no-repeat;
   }
 }

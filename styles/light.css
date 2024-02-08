@@ -22,7 +22,7 @@
     --title-decor: #353430;
 
     /* background-image */
-    --background-img: url('../../images/cover-image-light.png') center no-repeat;
+    --background-img: url('../images/cover-image-light.png') center no-repeat;
 }
 
 .page.theme_light .header__decorated {
@@ -45,7 +45,7 @@
     --title-decor: #353430;
 
     /* background-image */
-    --background-img: url('../../images/cover-image-light.png') center no-repeat;
+    --background-img: url('../images/cover-image-light.png') center no-repeat;
 
   }
 

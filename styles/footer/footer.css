@@ -17,16 +17,22 @@
 
 @media (768px <= width ) {
     .footer {
-        padding: 45px 20px;
+        padding: 20px 20px 20px 20px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
     }
 
     .footer__text {
-        font-size: 157px;
+        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 
     .footer.decorated-zone::after {
         grid-row-start: 3;
+    }
+}
+
+@media (1024px <= width ) {
+    .footer__text {
+        margin-left: 25px;
     }
 }
